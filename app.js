@@ -15,8 +15,16 @@ const cluster = new Redis.Cluster([
     },
 ]);
 
+function sleep() {
+    return new Promise(resolve => setTimeout(resolve, 1000));
+}
+
 async function exec() {
-    console.log(await cluster.set('baz', 'bar'))
+    for (let i = 0; i <100000; i++) {
+        await cluster.set(`foo${i}`, i)
+        await cluster.set(`offset`, i)
+        await sleep()
+    }
 }
 
 exec()
