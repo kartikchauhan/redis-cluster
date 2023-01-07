@@ -154,7 +154,7 @@ Moving slot 10931 from 127.0.0.1:7002 to 127.0.0.1:7000:
 Moving slot 10932 from 127.0.0.1:7002 to 127.0.0.1:7000: 
 ```
 
-### Hash slots assignment before resharding:
+### Hash slots assignment after resharding:
 
 ```bash
 M: 61ef31a0659ff330c4c4d539cc9f63a92678f039 127.0.0.1:7000
