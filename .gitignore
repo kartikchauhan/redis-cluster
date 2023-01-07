@@ -1,0 +1,16 @@
+# Ignore all files & folders in 700* directories
+7000/*
+7001/*
+7002/*
+7003/*
+7004/*
+7005/*
+dump.rdb
+
+# Don't ignore these files
+!7000/redis.conf
+!7001/redis.conf
+!7002/redis.conf
+!7003/redis.conf
+!7004/redis.conf
+!7005/redis.conf
