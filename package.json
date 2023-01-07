@@ -1,0 +1,26 @@
+{
+  "name": "redis-cluster",
+  "version": "1.0.0",
+  "description": "manage redis-cluster using ioredis npm package in NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartikchauhan/redis-cluster.git"
+  },
+  "keywords": [
+    "redis",
+    "redis-cluster"
+  ],
+  "author": "Kartik Chauhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kartikchauhan/redis-cluster/issues"
+  },
+  "homepage": "https://github.com/kartikchauhan/redis-cluster#readme",
+  "dependencies": {
+    "ioredis": "^5.2.4"
+  }
+}
