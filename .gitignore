@@ -14,3 +14,5 @@ dump.rdb
 !7003/redis.conf
 !7004/redis.conf
 !7005/redis.conf
+
+node_modules
